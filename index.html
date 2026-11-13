@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shaun Connaughton | Marketing Analytics, Ecommerce & Financial Planning</title>
+<meta name="description" content="VP-level marketing analytics and ecommerce leader with 18+ years of experience in forecasting, profitability and customer economics. Open to roles and freelance engagements.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<script>
+(function(){var r=document.documentElement;try{var s=localStorage.getItem('theme');r.dataset.theme=s||'dark'}catch(e){r.dataset.theme='dark'}})();
+</script>
+<style>
+:root{
+  --bg:#f5f6f8;--surface:#ffffff;--text:#111a2b;--muted:#55627a;--line:#d9deea;--accent:#9a5b00;--accent-ink:#ffffff;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;--body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0b1220;--surface:#121b2e;--text:#e8edf7;--muted:#98a4bd;--line:#24304a;--accent:#f2b84b;--accent-ink:#0b1220}
+}
+:root[data-theme="dark"]{--bg:#0b1220;--surface:#121b2e;--text:#e8edf7;--muted:#98a4bd;--line:#24304a;--accent:#f2b84b;--accent-ink:#0b1220}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.6 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:11;background:var(--bg);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;gap:24px;height:60px}
+.brand{font:700 18px var(--display);text-decoration:none;margin-right:auto}
+nav{display:flex;gap:22px;font-size:15px}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--text)}
+.toggle{background:none;border:1px solid var(--line);color:var(--text);border-radius:999px;padding:5px 14px;font:inherit;font-size:14px;cursor:pointer}
+section{padding:72px 0;border-top:1px solid var(--line)}
+h1,h2,h3{font-family:var(--display);line-height:1.12;margin:0}
+h1{font-size:clamp(40px,7vw,76px);letter-spacing:-.02em;font-weight:700}
+h2{font-size:clamp(28px,4vw,40px);letter-spacing:-.01em;margin-bottom:28px}
+h3{font-size:20px;margin-bottom:8px}
+p{margin:0 0 14px}
+.muted{color:var(--muted)}
+.hero{border-top:0;padding:64px 0 72px}
+.hero .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.lede{font-size:20px;max-width:34em;margin:22px 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 22px;border-radius:8px;border:1px solid var(--line);text-decoration:none;font-weight:500;background:none;color:var(--text);font-family:var(--body);font-size:16px;cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.chart{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 18px 12px}
+.chart svg{width:100%;height:auto;display:block}
+.chart .ax{stroke:var(--line);stroke-width:1}
+.chart .band{fill:var(--accent);opacity:.14}
+.chart .fc{fill:none;stroke:var(--muted);stroke-width:2;stroke-dasharray:5 6}
+.chart .ac{fill:none;stroke:var(--accent);stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.2s .3s ease-out forwards}
+.chart text{fill:var(--muted);font:13px var(--body)}
+.chart figcaption{font-size:13px;color:var(--muted);margin-top:8px}
+@keyframes draw{to{stroke-dashoffset:0}}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+.stat{padding:26px 24px 26px 0;border-bottom:1px solid var(--line)}
+.stat b{display:block;font:700 clamp(36px,5vw,52px)/1 var(--display);color:var(--accent);margin-bottom:8px}
+.stat span{color:var(--muted);font-size:15px;display:block;max-width:22em}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.two ul,.job ul{margin:0;padding-left:20px}
+.two li,.job li{margin-bottom:8px}
+.job{display:grid;grid-template-columns:190px 1fr;gap:32px;padding:30px 0;border-top:1px solid var(--line)}
+.job:first-of-type{border-top:0;padding-top:0}
+.when{color:var(--muted);font-size:15px}
+.ladder{font-size:15px;color:var(--muted);margin:0 0 16px}
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:32px 48px}
+.skills p{margin:0}
+.edu{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.contact h2{max-width:16em}
+.quote{margin:0;max-width:36em;border-left:3px solid var(--accent);padding-left:24px}
+.quote p:first-child{font:500 clamp(20px,3vw,26px)/1.4 var(--display)}
+.who{font-size:15px;margin:0}
+.cs-copy{max-width:40em}
+.cs-copy h3{margin-top:20px}
+.cs-box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;margin-top:28px}
+.cs-ctl{display:grid;grid-template-columns:repeat(4,1fr);gap:16px 24px;margin-bottom:16px}
+.cs-ctl label{display:block;font-size:14px;color:var(--muted)}
+.cs-ctl output{color:var(--text);font-weight:500}
+.cs-ctl input[type=range]{width:100%;accent-color:var(--accent)}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.pill{border:1px solid var(--line);background:none;color:var(--text);border-radius:999px;padding:6px 16px;font:inherit;font-size:15px;cursor:pointer}
+.pill[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+#cs-chart{width:100%;height:auto;display:block}
+#cs-chart text{fill:var(--muted);font:12px var(--body)}
+.cs-b{fill:none;stroke:var(--muted);stroke-width:1.5}
+.cs-l{fill:none;stroke:var(--muted);stroke-width:1.5;stroke-dasharray:2 4;opacity:.7}
+.cs-a{fill:none;stroke:var(--accent);stroke-width:3;stroke-linejoin:round}
+.cs-p{fill:none;stroke:var(--accent);stroke-width:3;stroke-dasharray:6 6}
+.cs-m{stroke:var(--line);stroke-width:1}
+.cs-key{font-size:14px;color:var(--muted);margin:10px 0 16px}
+.cs-out{display:grid;grid-template-columns:1fr 1fr;gap:16px 32px;border-top:1px solid var(--line);padding-top:16px}
+.cs-out b{display:block;font:700 30px/1.1 var(--display);color:var(--accent);margin-bottom:4px}
+.cs-note{font-size:13px;color:var(--muted);margin:16px 0 0}
+.dim{border:1px solid var(--line);background:none;color:var(--text);border-radius:999px;padding:6px 16px;font:inherit;font-size:15px;cursor:pointer}
+.dim[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.lv-row{display:grid;grid-template-columns:130px 1fr 64px 64px 64px 76px;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--line);font-size:15px}
+.lv-head{color:var(--muted);font-size:13px;border-top:0;padding-bottom:4px}
+.lv-bar{height:14px;background:var(--line);border-radius:7px;overflow:hidden;display:block}
+.lv-bar i{display:block;height:100%;background:var(--accent);border-radius:7px;transition:width .35s}
+.lv-num{text-align:right}
+.lv-avg{border-top:1px solid var(--line);padding-top:14px;margin:0}
+.ho-row{display:grid;grid-template-columns:170px 56px 96px 90px 100px 1fr;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--line);font-size:15px}
+.ho-yes,.ho-no{display:inline-block;border-radius:999px;padding:2px 12px;font-size:14px;font-weight:500;justify-self:start}
+.ho-yes{background:var(--accent);color:var(--accent-ink)}
+.ho-no{border:1px solid var(--line);color:var(--muted)}
+@media (max-width:760px){.ho-row{grid-template-columns:1fr 60px 60px 84px}}
+@media (max-width:760px){.lv-row{grid-template-columns:104px 1fr 56px}.lv-x{display:none}}
+@media (prefers-reduced-motion:reduce){.lv-bar i{transition:none}}
+@media (max-width:760px){.cs-ctl{grid-template-columns:1fr 1fr}.cs-out{grid-template-columns:1fr}}
+.mail{font:700 clamp(22px,4vw,34px) var(--display);text-decoration:none;border-bottom:2px solid var(--accent)}
+footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+@media (max-width:760px){
+  nav{display:none}
+  .hero .grid,.two,.skills,.job{grid-template-columns:1fr;gap:24px}
+  .stats{grid-template-columns:1fr 1fr}
+  section{padding:56px 0}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .chart .ac{animation:none;stroke-dashoffset:0}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top">Shaun Connaughton</a>
+    <nav aria-label="Primary">
+      <a href="#impact">Results</a>
+      <a href="#work">Work with me</a>
+      <a href="#experience">Experience</a>
+      <a href="#casestudy">Case study</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="toggle" id="theme" type="button" aria-label="Switch between light and dark theme">Theme</button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap grid">
+    <div>
+      <p class="muted">Marketing analytics, ecommerce and financial planning leader · Mansfield, MA</p>
+      <h1>I turn marketing and financial data into profit.</h1>
+      <p class="lede">Eighteen years of building the forecasts, customer economics and testing programs that tell a business where its next dollar should go. I’ve run an $80M+ operating plan, $4M in annual ad spend, and the shift of a catalog company to a majority-online business.</p>
+      <div class="btns">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn" href="#work">See how I can help</a>
+      </div>
+    </div>
+    <figure class="chart" style="margin:0">
+      <svg viewBox="0 0 420 250" role="img" aria-label="Illustrative chart of a weekly forecast line closely tracked by actual results">
+        <line class="ax" x1="20" y1="220" x2="400" y2="220"/>
+        <line class="ax" x1="20" y1="20" x2="20" y2="220"/>
+        <polygon class="band" points="20,178 56,164 92,156 128,138 164,134 200,116 236,108 272,92 308,86 344,70 380,58 380,82 344,94 308,110 272,116 236,132 200,140 164,158 128,162 92,180 56,188 20,202"/>
+        <polyline class="fc" points="20,190 56,176 92,168 128,150 164,146 200,128 236,120 272,104 308,98 344,82 380,70"/>
+        <polyline class="ac" pathLength="1" points="20,192 56,170 92,172 128,146 164,150 200,124 236,124 272,100 308,102 344,78 380,72"/>
+        <text x="26" y="242">Week 1</text>
+        <text x="340" y="242">Week 12</text>
+        <text x="30" y="40">Actual</text>
+        <text x="80" y="40" style="fill:var(--accent)">solid</text>
+        <text x="130" y="40">Forecast</text>
+        <text x="190" y="40">dashed</text>
+      </svg>
+      <figcaption>Illustrative weekly forecast against actuals. No company data shown.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="impact">
+  <div class="wrap">
+    <h2>Results from the work</h2>
+    <div class="stats">
+      <div class="stat"><b data-count="80" data-prefix="$" data-suffix="M+">$80M+</b><span>Annual operating plan built and managed, with weekly reforecasting through EBITDA</span></div>
+      <div class="stat"><b data-count="150" data-suffix="%+">150%+</b><span>Profit per contact gained after holdout tests let us cut circulation by half</span></div>
+      <div class="stat"><b data-count="30" data-suffix="%">30%</b><span>Paid search spend cut while demand stayed flat</span></div>
+      <div class="stat"><b data-count="1" data-prefix="~$" data-suffix="M">~$1M</b><span>Added annual shipping revenue from reworked shipping thresholds</span></div>
+      <div class="stat"><b data-count="3" data-suffix="×">3×</b><span>New-customer conversion rate from a multi-channel contact strategy</span></div>
+      <div class="stat"><b data-count="50" data-suffix="%+">50%+</b><span>Year-over-year lift in email and SMS revenue, clicks and opens from A/B testing</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <h2>Work with me</h2>
+    <div class="two">
+      <div>
+        <h3>Hiring for a full-time role?</h3>
+        <p class="muted">I’m looking for VP or Director roles where marketing analytics, ecommerce and financial planning meet.</p>
+        <ul>
+          <li>Lead a team that connects marketing spend to P&amp;L outcomes</li>
+          <li>Own planning, forecasting and board-level reporting</li>
+          <li>Run the testing and measurement programs behind growth</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Need help on a project?</h3>
+        <p class="muted">I take on focused engagements, like the ecommerce rebuild I led in 2025.</p>
+        <ul>
+          <li>Budgeting and forecasting models your CEO can run the business on</li>
+          <li>Holdout testing and profitability analysis for marketing programs</li>
+          <li>Customer lifetime value and acquisition cost modeling</li>
+          <li>Ecommerce and digital channel relaunches or turnarounds</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+
+    <article class="job">
+      <div class="when">July – Nov 2025</div>
+      <div>
+        <h3>Vice President of Ecommerce (contract)</h3>
+        <p class="muted">Especially Yours Inc · West Bridgewater, MA</p>
+        <ul>
+          <li>Brought in to rebuild ecommerce and digital marketing after a two-month website outage. Relaunched the site plus email, paid search, SEO, remarketing, SMS, social, Meta and affiliates.</li>
+          <li>Re-engaged lapsed vendors and negotiated new agreements that restored channels quickly and saved money.</li>
+          <li>Built budget and forecast models for the CEO and senior team, and Shopify KPI reporting across the company.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">Aug 2007 – July 2025</div>
+      <div>
+        <h3>Vice President of Marketing and Analytics</h3>
+        <p class="muted">Specialty Commerce Corporation · West Bridgewater, MA · Catalog and online retailer</p>
+        <p class="ladder">Eighteen years, six promotions: Statistical Marketing Analyst, Senior Marketing Analyst, Manager, Senior Manager, Director, Senior Director, then VP (2022).</p>
+        <ul>
+          <li>Built the company’s budgeting and forecasting platform for an $80M+ plan. Led weekly reforecasts used for inventory, call-center staffing and marketing investment.</li>
+          <li>Worked with accounting each month to explain budget variances to the CEO and Board and to plan fixes for shortfalls.</li>
+          <li>Led the shift from catalog-first to digital-first, taking online from under 25% of sales to the majority.</li>
+          <li>Built customer lifetime value and channel profitability models that guided multimillion-dollar investment decisions.</li>
+          <li>Used holdout testing to cut circulation by 50% while raising profit per contact by more than 150%. Especially Yours kept using the approach after it acquired the company.</li>
+          <li>Owned $4M in annual online ad spend across paid search, SEO, affiliates, remarketing, Amazon and Meta.</li>
+          <li>Moved Dynamic Search Ads into the mix to improve CPA by 10%. Created the company’s first successful co-op prospecting strategy.</li>
+          <li>Built a P&amp;L framework for a new apparel brand that reached $4M+ in first-year sales.</li>
+          <li>Led 12+ people across marketing, merchandising and ecommerce.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">Education</div>
+      <div class="edu">
+        <div><h3>B.S., Resource Economics (Managerial)</h3><p class="muted">University of Massachusetts Amherst, 2005</p></div>
+        <div><h3>Graduate coursework, Econometrics</h3><p class="muted">University of Massachusetts Amherst, 2006</p></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="casestudy">
+  <div class="wrap">
+    <h2>Case study: one weekly forecast for the whole company</h2>
+    <div class="cs-copy">
+      <h3>The problem</h3>
+      <p>Inventory, call-center staffing, marketing and finance each planned from their own view of the week, so decisions drifted apart.</p>
+      <h3>What I built</h3>
+      <p>A weekly sales and forecast book, built from scratch and refreshed every week. It compared actual sales to budget, last year and two years back by business and channel. For the weeks ahead, I projected the active catalogs, updated circulation, response rate and average order value for each mailing, then adjusted the weekly sales flow.</p>
+      <h3>What it did</h3>
+      <p>One outlook, shared across the company, used for inventory planning, call-center staffing, marketing investment and projected profitability.</p>
+    </div>
+    <div class="cs-box">
+      <p class="muted" style="margin-bottom:14px">A simplified rebuild you can play with. All data is invented. Move the controls to see how the outlook changes.</p>
+      <div class="pills" role="group" aria-label="Channel">
+        <button class="pill" type="button" data-ch="all" aria-pressed="true">All channels</button>
+        <button class="pill" type="button" data-ch="cat" aria-pressed="false">Catalog</button>
+        <button class="pill" type="button" data-ch="web" aria-pressed="false">Web</button>
+        <button class="pill" type="button" data-ch="mkt" aria-pressed="false">Marketplace</button>
+      </div>
+      <div class="cs-ctl">
+        <div><label for="sel">Weeks closed: <output id="o-sel">Week 12</output></label><input id="sel" type="range" min="4" max="22" step="1" value="12"></div>
+        <div><label for="circ">Circulation vs plan: <output id="o-circ">0%</output></label><input id="circ" type="range" min="-20" max="20" step="5" value="0"></div>
+        <div><label for="resp">Response rate: <output id="o-resp">1.8%</output></label><input id="resp" type="range" min="1.2" max="2.6" step="0.1" value="1.8"></div>
+        <div><label for="aov">Average order value: <output id="o-aov">$82</output></label><input id="aov" type="range" min="60" max="100" step="1" value="82"></div>
+      </div>
+      <svg id="cs-chart" viewBox="0 0 680 270" role="img" aria-label="Weekly sales: actual, budget, last year and projection"></svg>
+      <p class="cs-key">Solid gold: actual. Dashed gold: projection. Gray line: budget. Dotted gray: last year. Weekly sales in thousands of dollars.</p>
+      <div class="cs-out" aria-live="polite">
+        <div><b id="o-ytd">0%</b><span class="muted">Year to date vs budget</span><br><span class="muted" id="o-ytd-s"></span></div>
+        <div><b id="o-out">0%</b><span class="muted">Full-period outlook vs budget</span><br><span class="muted" id="o-out-s"></span></div>
+      </div>
+      <p class="cs-note">The budget assumes a 2.0% response rate and an $80 average order value. Circulation, response and order value drive the catalog projection. Web and marketplace project from their last four weeks against budget.</p>
+    </div>
+  </div>
+</section>
+
+<section id="ltv">
+  <div class="wrap">
+    <h2>Case study: what a new customer is worth a year later</h2>
+    <div class="cs-copy">
+      <h3>The problem</h3>
+      <p>Marketing decisions were being made without a clear view of what a new customer was worth after the first order.</p>
+      <h3>What I built</h3>
+      <p>A one-year customer value analysis that joined internal sales and cost data from Oracle Hyperion with web metrics from Google Analytics. For each group of new customers, it tracked what they spent in the year after their first purchase, then subtracted catalog, shipping, order-handling and web advertising costs to reach contribution per customer. I cut it by first-order size, where the customer came from, first channel, month, refunds and free shipping.</p>
+      <h3>What it did</h3>
+      <p>It gave the company its first real look at customer value after the first order, and a summary slide for the board. The findings shaped how acquisition spend was allocated across channels.</p>
+    </div>
+    <div class="cs-box">
+      <p class="muted" style="margin-bottom:14px">A simplified rebuild with invented numbers. Switch the view, then change how many catalogs are mailed to see what it does to value.</p>
+      <div class="pills" role="group" aria-label="Customer view">
+        <button class="dim" type="button" data-dim="size" aria-pressed="true">First order size</button>
+        <button class="dim" type="button" data-dim="src" aria-pressed="false">Where they came from</button>
+        <button class="dim" type="button" data-dim="chan" aria-pressed="false">First order channel</button>
+      </div>
+      <div class="cs-ctl" style="grid-template-columns:minmax(0,320px)">
+        <div><label for="lv-contacts">Catalogs mailed per year: <output id="o-lv-c">14</output></label><input id="lv-contacts" type="range" min="4" max="24" step="1" value="14"></div>
+      </div>
+      <div id="lv-rows" aria-live="polite"></div>
+      <p class="cs-note" id="lv-take"></p>
+      <p class="cs-note">Value is measured in the year after the first order. Contribution is sales after cancellations and refunds, times gross margin, plus shipping revenue, minus shipping, order-handling, catalog and web advertising costs. The first order itself is not counted.</p>
+    </div>
+  </div>
+</section>
+
+<section id="holdout">
+  <div class="wrap">
+    <h2>Case study: is the next catalog worth mailing?</h2>
+    <div class="cs-copy">
+      <h3>The problem</h3>
+      <p>Every extra catalog costs real money, and it was hard to tell whether it created new orders or only collected orders that would have come anyway.</p>
+      <h3>What I built</h3>
+      <p>A controlled holdout test. I randomly split customers into two equal groups over the same stretch of weeks. One group got the standard schedule and the other got one extra catalog. I compared orders, demand, cancellations, refunds, gross margin and catalog cost, then cut the results by how recently each customer had bought and how often.</p>
+      <h3>What it did</h3>
+      <p>The test showed where the extra catalog paid for itself and where it didn’t, so mailings could be cut where they lost money. Across the program, holdout testing helped cut circulation by 50% and raise profit per contact by more than 150%.</p>
+    </div>
+    <div class="cs-box">
+      <p class="muted" style="margin-bottom:14px">A simplified rebuild with invented numbers. Change the cost of a catalog and see which customers are still worth mailing.</p>
+      <div class="cs-ctl" style="grid-template-columns:minmax(0,320px)">
+        <div><label for="ho-cost">Cost per catalog: <output id="o-ho-c">$0.70</output></label><input id="ho-cost" type="range" min="40" max="100" step="5" value="70"></div>
+      </div>
+      <div id="ho-rows" aria-live="polite"></div>
+      <div class="cs-out" style="margin-top:12px" aria-live="polite">
+        <div><b id="o-ho-all">$0</b><span class="muted">Mail the extra catalog to everyone</span><br><span class="muted">Added contribution per 1,000 customers</span></div>
+        <div><b id="o-ho-tgt">$0</b><span class="muted">Mail only where it pays</span><br><span class="muted" id="o-ho-cut"></span></div>
+      </div>
+      <p class="cs-note">Added contribution is extra sales after cancellations and refunds, times gross margin, minus the cost of the extra catalog. It assumes 85% of demand survives cancellations and refunds and a 70% gross margin. Break-even lift is the sales increase the extra catalog needs just to cover its own cost.</p>
+    </div>
+  </div>
+</section>
+
+<section id="recommendation">
+  <div class="wrap">
+    <h2>What people say</h2>
+    <blockquote class="quote">
+      <p>“Shaun was a great resource in streamlining processes to aid in marketing strategy, analytics reporting, or budget development… Shaun leads by empowering team members without micromanagement. I genuinely enjoyed working with Shaun and never felt I worked for Shaun. That is a huge distinction in my eyes.”</p>
+      <p class="muted who">Christine Durden, who reported directly to Shaun · LinkedIn recommendation, January 2026</p>
+    </blockquote>
+  </div>
+</section>
+
+<section id="expertise">
+  <div class="wrap">
+    <h2>Expertise</h2>
+    <div class="skills">
+      <div><h3>Planning and finance</h3><p class="muted">Budgeting and forecasting, P&amp;L and variance analysis, scenario planning through EBITDA, board and executive reporting.</p></div>
+      <div><h3>Customer economics</h3><p class="muted">Lifetime value, acquisition cost, segmentation and scoring, channel and customer profitability.</p></div>
+      <div><h3>Marketing and ecommerce</h3><p class="muted">Paid search and social, SEO, email and SMS, affiliates, Amazon, attribution, ecommerce growth strategy.</p></div>
+      <div><h3>Measurement and tools</h3><p class="muted">A/B and holdout testing, advanced Excel modeling, SQL, Oracle Hyperion, Google Analytics, Shopify.</p></div>
+      <div style="grid-column:1/-1"><h3>What colleagues endorse most</h3><p class="muted">Multi-channel marketing (9 endorsements), direct marketing (8), customer acquisition (7) and email marketing (5), mostly from people I worked with at Specialty Commerce.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2>Let’s talk about your next hire or project.</h2>
+    <p><a class="mail" href="mailto:Shaun@connaughton.net">Shaun@connaughton.net</a></p>
+    <div class="btns" style="margin-top:20px">
+      <a class="btn primary" href="https://www.linkedin.com/in/shaun-connaughton-1784978" target="_blank" rel="noopener">View LinkedIn profile</a>
+      <button class="btn" id="copy" type="button">Copy email</button>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">© Shaun Connaughton · Mansfield, Massachusetts · Designed and built with Claude</div>
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  document.getElementById('theme').addEventListener('click',function(){
+    var cur=root.dataset.theme==='light'?'dark':'light';
+    root.dataset.theme=cur;
+    try{localStorage.setItem('theme',cur)}catch(e){}
+  });
+  var copy=document.getElementById('copy');
+  copy.addEventListener('click',function(){
+    try{
+      navigator.clipboard.writeText('Shaun@connaughton.net').then(function(){copy.textContent='Copied'},function(){copy.textContent='Copy failed'});
+    }catch(e){copy.textContent='Copy failed'}
+    setTimeout(function(){copy.textContent='Copy email'},2000);
+  });
+  var els=document.querySelectorAll('[data-count]');
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function fmt(el,n){el.textContent=(el.dataset.prefix||'')+n+(el.dataset.suffix||'')}
+  function run(el){
+    var end=+el.dataset.count,t0=null,dur=1200;
+    function step(t){
+      if(!t0)t0=t;
+      var p=Math.min((t-t0)/dur,1);
+      fmt(el,Math.round(end*(1-Math.pow(1-p,3))));
+      if(p<1)requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  if(reduce||!('IntersectionObserver' in window))return;
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){run(e.target);io.unobserve(e.target)}});
+  },{threshold:.6});
+  els.forEach(function(el){fmt(el,0);io.observe(el)});
+})();
+</script>
+<script>
+(function(){
+  var W=26,drops=[1,5,9,13,17,21],flow=[.4,.3,.2,.1],K=['cat','web','mkt'];
+  function rnd(i,s){var x=Math.sin(i*12.9898+s*78.233)*43758.5453;return x-Math.floor(x)}
+  var B={cat:[],web:[],mkt:[]},L={cat:[],web:[],mkt:[]},A={cat:[],web:[],mkt:[]},f={cat:1,web:1,mkt:1};
+  for(var w=0;w<W;w++){
+    var c=0;
+    for(var d=0;d<drops.length;d++){var k=w+1-drops[d];if(k>=0&&k<4)c+=320*flow[k]}
+    B.cat[w]=c;B.web[w]=60+6*Math.sin(w/4);B.mkt[w]=25+3*Math.cos(w/5);
+    for(var j=0;j<3;j++)L[K[j]][w]=B[K[j]][w]*(.94+.08*rnd(w,j+1));
+    A.cat[w]=B.cat[w]*(.88+.08*rnd(w,5));A.web[w]=B.web[w]*(.98+.1*rnd(w,6));A.mkt[w]=B.mkt[w]*(1.04+.1*rnd(w,7));
+  }
+  var st={ch:'all'};
+  function $(id){return document.getElementById(id)}
+  function ser(kind){
+    var out=[],keys=st.ch==='all'?K:[st.ch];
+    for(var w=0;w<W;w++){
+      var v=0;
+      for(var i=0;i<keys.length;i++){
+        var k=keys[i];
+        v+=kind==='B'?B[k][w]:kind==='L'?L[k][w]:kind==='A'?A[k][w]:B[k][w]*f[k];
+      }
+      out.push(v);
+    }
+    return out;
+  }
+  function sum(s,i,j){var t=0;for(var k=i;k<=j;k++)t+=s[k];return t}
+  function money(x){return '$'+Math.round(x).toLocaleString('en-US')+'K'}
+  function pct(x){return (x>=0?'+':'\u2212')+Math.abs(x*100).toFixed(1)+'%'}
+  function render(){
+    var sel=+$('sel').value,circ=+$('circ').value,resp=+$('resp').value,aov=+$('aov').value;
+    $('o-sel').textContent='Week '+sel;
+    $('o-circ').textContent=(circ>0?'+':circ<0?'\u2212':'')+Math.abs(circ)+'%';
+    $('o-resp').textContent=resp.toFixed(1)+'%';
+    $('o-aov').textContent='$'+aov;
+    function ratio(k){var a=0,b=0;for(var i=Math.max(0,sel-4);i<sel;i++){a+=A[k][i];b+=B[k][i]}return a/b}
+    f={cat:(1+circ/100)*(resp/2)*(aov/80),web:ratio('web'),mkt:ratio('mkt')};
+    var b=ser('B'),l=ser('L'),a=ser('A'),p=ser('P');
+    p[sel-1]=a[sel-1];
+    var max=0,all=[b,l,a,p];
+    for(var s=0;s<all.length;s++)for(var i=0;i<W;i++)if(all[s][i]>max)max=all[s][i];
+    max*=1.1;
+    function X(i){return 44+i*(624/(W-1))}
+    function Y(v){return 244-v/max*228}
+    function path(s,from,to){var d='';for(var i=from;i<=to;i++)d+=(i===from?'M':'L')+X(i).toFixed(1)+','+Y(s[i]).toFixed(1);return d}
+    $('cs-chart').innerHTML=
+      '<line class="cs-m" x1="44" y1="244" x2="668" y2="244"/>'+
+      '<line class="cs-m" x1="'+X(sel-1)+'" y1="16" x2="'+X(sel-1)+'" y2="244"/>'+
+      '<path class="cs-b" d="'+path(b,0,W-1)+'"/>'+
+      '<path class="cs-l" d="'+path(l,0,W-1)+'"/>'+
+      '<path class="cs-p" d="'+path(p,sel-1,W-1)+'"/>'+
+      '<path class="cs-a" d="'+path(a,0,sel-1)+'"/>'+
+      '<text x="4" y="22">$'+Math.round(max/1.1/10)*10+'K</text>'+
+      '<text x="4" y="244">$0</text>'+
+      '<text x="40" y="262">Wk 1</text><text x="'+(X(12))+'" y="262">Wk 13</text><text x="640" y="262">Wk 26</text>';
+    var ya=sum(a,0,sel-1),yb=sum(b,0,sel-1),out=ya+sum(p,sel,W-1),fb=sum(b,0,W-1);
+    $('o-ytd').textContent=pct(ya/yb-1);
+    $('o-ytd-s').textContent=money(ya)+' actual vs '+money(yb)+' budget';
+    $('o-out').textContent=pct(out/fb-1);
+    $('o-out-s').textContent=money(out)+' projected vs '+money(fb)+' budget';
+  }
+  ['sel','circ','resp','aov'].forEach(function(id){$(id).addEventListener('input',render)});
+  var pills=document.querySelectorAll('.pill');
+  for(var i=0;i<pills.length;i++)pills[i].addEventListener('click',function(){
+    st.ch=this.getAttribute('data-ch');
+    for(var j=0;j<pills.length;j++)pills[j].setAttribute('aria-pressed',pills[j]===this?'true':'false');
+    render();
+  });
+  render();
+})();
+</script>
+<script>
+(function(){
+  var D={
+    size:{take:'Customers whose first order was larger were worth several times more in the following year.',rows:[['Under $25',8,.31,1.8,62],['$25\u201350',27,.31,1.9,63],['$50\u201375',29,.35,2.0,72],['$75\u2013100',15,.36,3.2,83],['$100\u2013150',13,.37,2.2,92],['$150 and up',8,.39,4.4,110]]},
+    src:{take:'Customers from the existing customer list and reactivated customers returned far more often than prospects.',rows:[['Customer list',12,.40,4.4,85],['Inquiry',12,.35,1.9,79],['Web',62,.34,2.1,80],['Reactivated',9,.60,1.8,76],['Prospecting',5,.21,1.8,105]]},
+    chan:{take:'Customers who first ordered by phone spent far more over the next year than those who started online or by mail.',rows:[['Phone',26,.38,3.2,86],['Web',70,.34,2.1,79],['Mail',4,.28,1.6,70]]}
+  };
+  var dim='size';
+  function $(id){return document.getElementById(id)}
+  function contrib(r,contacts){
+    var dem=r[3]*r[4],net=dem*.9*.85;
+    return net*.71+r[3]*.9*6.4-contacts*.6-net*.16-dem*.03;
+  }
+  function render(){
+    var contacts=+$('lv-contacts').value,rows=D[dim].rows,vals=[],max=1,avg=0,i;
+    $('o-lv-c').textContent=contacts;
+    for(i=0;i<rows.length;i++){vals[i]=contrib(rows[i],contacts)*rows[i][2];if(vals[i]>max)max=vals[i];avg+=vals[i]*rows[i][1]/100}
+    var h='<div class="lv-row lv-head"><span></span><span>Value per new customer</span><span class="lv-num"></span><span class="lv-num lv-x">Share of new</span><span class="lv-num lv-x">Repeat rate</span><span class="lv-num lv-x">Orders per repeater</span></div>';
+    for(i=0;i<rows.length;i++){
+      var r=rows[i],w=Math.max(0,vals[i])/max*100;
+      h+='<div class="lv-row"><span>'+r[0]+'</span><span class="lv-bar"><i style="width:'+w.toFixed(1)+'%"></i></span><b class="lv-num">$'+Math.round(vals[i])+'</b><span class="lv-num lv-x">'+r[1]+'%</span><span class="lv-num lv-x">'+Math.round(r[2]*100)+'%</span><span class="lv-num lv-x">'+r[3].toFixed(1)+'</span></div>';
+    }
+    h+='<p class="lv-avg">Average across all new customers: <b>$'+Math.round(avg)+'</b></p>';
+    $('lv-rows').innerHTML=h;
+    $('lv-take').textContent=D[dim].take;
+  }
+  $('lv-contacts').addEventListener('input',render);
+  var btns=document.querySelectorAll('.dim');
+  for(var i=0;i<btns.length;i++)btns[i].addEventListener('click',function(){
+    dim=this.getAttribute('data-dim');
+    for(var j=0;j<btns.length;j++)btns[j].setAttribute('aria-pressed',btns[j]===this?'true':'false');
+    render();
+  });
+  render();
+})();
+</script>
+<script>
+(function(){
+  var S=[['Bought in last 12 months',15,14,.10],['Bought 13\u201324 months ago',35,4.5,.02],['Bought 25+ months ago',50,1.6,.01]];
+  function $(id){return document.getElementById(id)}
+  function usd(x){return (x<0?'\u2212':'')+'$'+Math.abs(Math.round(x)).toLocaleString('en-US')}
+  function render(){
+    var c=+$('ho-cost').value/100,all=0,tgt=0,held=0,i;
+    $('o-ho-c').textContent='$'+c.toFixed(2);
+    var h='<div class="ho-row lv-head"><span>Customer group</span><span class="lv-x">Share</span><span class="lv-x">Demand each</span><span>Lift seen</span><span>Break-even</span><span>Decision</span></div>';
+    for(i=0;i<S.length;i++){
+      var r=S[i],m=r[2]*.595,be=c/m,per=m*r[3]-c;
+      all+=per*r[1]/100;
+      if(per>0)tgt+=per*r[1]/100;else held+=r[1];
+      h+='<div class="ho-row"><span>'+r[0]+'</span><span class="lv-x">'+r[1]+'%</span><span class="lv-x">$'+r[2].toFixed(2)+'</span><span>+'+Math.round(r[3]*100)+'%</span><span>'+Math.round(be*100)+'%</span><span class="'+(per>0?'ho-yes':'ho-no')+'">'+(per>0?'Mail':'Hold out')+'</span></div>';
+    }
+    $('ho-rows').innerHTML=h;
+    $('o-ho-all').textContent=usd(all*1000);
+    $('o-ho-tgt').textContent=usd(tgt*1000);
+    $('o-ho-cut').textContent=held>0?'Extra catalogs cut by '+held+'%':'No extra catalogs cut';
+  }
+  $('ho-cost').addEventListener('input',render);
+  render();
+})();
+</script>
+</body>
+</html>
